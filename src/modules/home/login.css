@@ -1,0 +1,99 @@
+/* LoginComponent.css */
+
+body {
+    background-color: #f4f4f4;
+    /* Light gray background */
+    font-family: 'Montserrat', sans-serif;
+    /* Use Montserrat font */
+}
+
+h2 {
+    margin-bottom: 20px;
+    /* Space below the heading */
+    color: #333;
+    /* Dark gray text color */
+}
+
+.container {
+    background: white;
+    /* White background for the container */
+    padding: 40px;
+    /* Space inside the container */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    width: 100%;
+    /* Full width for smaller screens */
+    max-width: 400px;
+    /* Max width for larger screens */
+    text-align: center;
+    /* Center text */
+}
+
+input {
+    border: 1px solid #e6e8e9;
+    /* Light gray border */
+    border-radius: 4px;
+    /* Rounded corners for inputs */
+    padding: 10px;
+    /* Padding inside inputs */
+    margin: 10px 0;
+    /* Space above and below inputs */
+    width: calc(100% - 20px);
+    /* Full width with padding accounted */
+    outline: none;
+    /* Remove outline on focus */
+    transition: border-color 0.3s;
+    /* Smooth transition for border color */
+}
+
+input:focus {
+    border-color: #007bff;
+    /* Blue border on focus */
+}
+
+button {
+    background-color: black;
+    /* Black background */
+    color: white;
+    /* White text */
+    border: none;
+    /* No border */
+    cursor: pointer;
+    /* Pointer cursor */
+    font-weight: bold;
+    /* Bold text */
+    font-size: 15px;
+    /* Font size */
+    padding: 10px;
+    /* Padding inside button */
+    border-radius: 4px;
+    /* Rounded corners for button */
+    width: 100%;
+    /* Full width */
+    transition: background-color 0.3s;
+    /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #444;
+    /* Darker background on hover */
+}
+
+p {
+    margin-top: 20px;
+    /* Space above paragraph */
+}
+
+a {
+    color: #007bff;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
